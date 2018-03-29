@@ -1,10 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <title>Vintage Cars - Home</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Vintage</span> Cars</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="index.html">something</a></li>
+                    <li><a href="index.html">There</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <section id="form">
+            <div class="search-bar"></div>
+                <input placeholder="Zip Code">
+                <select data-placeholder="&nbsp;Year" class="chzn-select year" tabindex="1" id="year">
+                    <option value=""></option>
+                    <option value="1930">1930</option>
+                    <option value="1931">1931</option>
+                    <option value="1932">1932</option>
+                    <option value="1933">1933</option>
+                    <option value="1934">1934</option>
+                    <option value="1935">1935</option>
+                    <option value="1936">1936</option>
+                    <option value="1937">1937</option>
+                    <option value="1938">1938</option>
+                    <option value="1939">1939</option>
+                    <option value="1940">1940</option>
+                </select>
+                <!--style="width:70px;"-->
+        
+                <select data-placeholder="Make" class="chzn-select" tabindex="2" id="make">
+                    <option value=""></option>
+                    <option value="CADILLAC">CADILLAC</option>
+                    <option value="CHRYSLER">CHRYSLER</option>
+                    <option value="FORD">FORD</option>
+                    <option value="MERCEDES-BENZ">MERCEDES-BENZ</option>
+                    <option value="ROLLS-ROYCE">ROLLS-ROYCE</option>
+                </select>
+                <!--style="width:115px;"-->
+        
+                <select data-placeholder="Model" class="chzn-select" tabindex="3" id="model">
+                    <option value=""></option>
+                    <option value="">...</option>
+                    <option value="">...</option>
+                    <option value="">...</option>
+                    <option value="">...</option>
+                    <option value="">...</option>
+                    <option value="">...</option>
+                </select>
+                <!--style="width:115px;"-->
+        
+                <a href="#" class="button">Search</a>
+        
+            </div>
+    
+    </header>
+
+    <!-- CREATE A HAMBURGER FOR THE CONTRIBUTERS' BIO Contributers: Derek Ambrose | Sharmeen Panjwani | Nelson Quinones -->
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Vintage Cars from the 1930's</h1>
+            <p>Find Amazing Vintage Cars in the United States</p>
+        </div>
+    </section>
+
+    <section id="newsletter">
+        <div class="container">
+            <h1> Suscribe To Newsletter</h1>
+            <form>
+                <input type="email" placeholder="Enter Email">
+                <button type="submit" class="button_1">Suscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="boxes">
+        <div class="container">
+            <div class="box">
+                <img src="assets/images/rolls-royce.jpg">
+                <h3>VINTAGE PIC1</h3>
+                <p>Say something here about the car</p>
+            </div>
+            <div class="box">
+                <img src="assets/images/ford.jpg">
+                <h3>VINTAGE PIC2</h3>
+                <p>Say something here about the car</p>
+            </div>
+            <div class="box">
+                <img src="assets/images/benz.jpg">
+                <h3>VINTAGE PIC3</h3>
+                <p>Say something here about the car</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Vintage Cars
+        <p>A Pair Programming Project for Web Design Practice</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
 </body>
+
 </html>
