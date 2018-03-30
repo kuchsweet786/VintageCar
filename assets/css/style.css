@@ -193,3 +193,49 @@ button, html input[type=button], input[type=reset], input[type=submit] {
     -webkit-appearance: button;
     cursor: pointer;
 }
+<<<<<<< HEAD
+=======
+
+@media screen and (max-width: 980px) {
+    .form {
+      width: 37%;
+    }
+    .main-section {
+      width: 60%;
+    }
+    #masthead {
+     width: 100%;
+    }
+    #logo {
+    width: 100%;}
+}
+  
+  @media screen and (max-width: 768px) {
+    .make {
+      width: 100%;
+    }
+    .main-section {
+      width: 100%;
+    }
+      #masthead {
+     width: 100%;
+    }
+     #logo {
+    width: 100%;}
+}
+  
+  @media screen and (max-width: 640px) {
+    .model {
+      width: 70%;
+      float: none;
+    }
+    .main-section {
+      width: 100%;
+    }
+      #masthead {
+      width: 100%;
+    }
+      #logo {
+      width: 100%;}
+  }
+>>>>>>> 7d0f5d86bbf2b0abad0968fb574874a0f62029f8
