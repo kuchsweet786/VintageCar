@@ -1,45 +1,48 @@
-setTimeout(function () {
-    $('input').addClass('animated tada');
-}, 3000);
-
-setTimeout(function () {
-    $('.form').addClass('animated bounce');
-}, 7000);
-
-var config = {
-    '.chzn-select': {},
-    '.chzn-select-deselect': { allow_single_deselect: true },
-    '.chzn-select-no-single': { disable_search_threshold: 10 },
-    '.chzn-select-no-results': { no_results_text: 'Oops, nothing found!' },
-    '.chzn-select-width': { width: "95%" }
-}
-for (var selector in config) {
-    $(selector).chosen(config[selector]);
-}
-
-$('body').on('change', '#model', function () {
-    $('#trim_chzn').css('display', 'inline-block').addClass("chzn-container-active chzn-with-drop");
-    $('#model_chzn, #make_chzn').width("auto").addClass('square');
-
-    setTimeout(function () {
-        $('#trim_chzn input').focus();
-    }, 200);
-});
-
-$('body').on('change', '#year', function () {
-    $('#make_chzn').addClass("chzn-container-active chzn-with-drop");
-
-    setTimeout(function () {
-        $('#make_chzn input').focus();
-    }, 200);
-
-});
-
-$('body').on('change', '#make', function () {
-    $('#model_chzn').addClass("chzn-container-active chzn-with-drop");
-
-    setTimeout(function () {
-        $('#model_chzn input').focus();
-    }, 200);
-
-});
+//
+// var apiKey = "AIzaSyC2_GlLrq_2dM9w0JR2MhFxEPOFCYz_rIQ";
+// var carLon = [];
+// var car =[];
+//
+//
+// $(function() {
+//     // strings to be used to construct request
+//     apiKey = "AIzaSyC2_GlLrq_2dM9w0JR2MhFxEPOFCYz_rIQ";
+//     var baseURL = "https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=visualization&callback=initMap";
+//     // stores latitude and longitude attributes of requested JSON resource
+//     var latitude, longitude;
+//
+//     function getLocation() {
+//
+//         if (navigator.geolocation) {
+//             navigator.geolocation.getCurrentPosition(success, fail);
+//         }
+//     }
+//
+//     function success(position) {
+//
+//         latitude = position.coords.latitude;
+//         longitude = position.coords.longitude;
+//         display(constructRequest(latitude, longitude));
+//     }
+//
+//     function fail() {
+//
+//         console.log('fail');
+//     }
+//
+//     function constructRequest(lat, long) {
+//         /* constructs and returns http request based on user's latitude and longitude */
+//         return baseURL + "carLat=" + lat + "carLon=" + long + apiKey;
+//     }
+//
+//     function display(req) {
+//
+//         $.getJSON(req,
+//             function(data) {
+//                 $('#display').text(data.car[0].description);
+//             }
+//         );
+//     }
+//
+//     getLocation();
+// });
