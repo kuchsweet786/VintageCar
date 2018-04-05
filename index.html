@@ -1,183 +1,375 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Vintage Cars - Vintage Cars</title> 
+    
+    <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Raleway:500,600,700,800,900,400,300' rel='stylesheet' type='text/css'>
 
-    <title>Vintage Cars - Home</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <!-- Style -->
+    <link href="css/style.css" rel="stylesheet">
 
+    <link href="css/animate.css" rel="stylesheet">
+    <!-- Responsive CSS -->
+    <link href="css/responsive.css" rel="stylesheet">
+    <!--Bent - Site: https://dcrazed.com/bent-app-landing-page-template/-->
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <div id="branding">
-                <h1><span class="highlight">Vintage</span> Cars</h1>
-            </div>
-            <nav>
-                <ul>
-                    <li class="current"><a href="index.html">Home</a></li>
-                    <li><a href="#facts">Facts</a></li>
-                    <li><a href="#collecting">Collecting</a></li>
-                    <li><a href="#safety">Safety</a></li>
-                    <li><a href="#valuation">Valuation</a></li>
-                    <li><a href="#rarity">Rarity</a></li>
-                    <li><a href="#link-history">History</a></li>
-                </ul>
+    <!-- PRELOADER -->
+    <div class="spn_hol">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+    <!-- END PRELOADER -->
+
+ <!-- =========================
+     START HEADER SECTION
+============================== -->
+    <section class="header parallax home-parallax page" id="HOME">
+        <h2></h2>
+        <div class="section_overlay">
+            <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">
+                            <img src="images/v.png" alt="Logo">
+                        </a>
+                    </div>
+                    <!-- Nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <!-- NAV -->
+                            <li><a href="#HOME">HOME</a> </li>
+                            <li><a href="#CONTACT">VINTAGE BUYERS & SELLERS </a> </li>
+                            <li><a href="#DOWNLOAD">HISTORY </a> </li>
+                            <li><a href="#ABOUT">MEMBERS</a> </li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container- -->
             </nav>
-        </div>
 
-        <section id="form">
-            <div class="search-bar"></div>
-                <input placeholder="Zip Code">
-                <select data-placeholder="&nbsp;Year" class="chzn-select-year" tabindex="1" id="year">
-                    <option value=""></option>
-                    <option value="1930">1930</option>
-                    <option value="1931">1931</option>
-                    <option value="1932">1932</option>
-                    <option value="1933">1933</option>
-                    <option value="1934">1934</option>
-                    <option value="1935">1935</option>
-                    <option value="1936">1936</option>
-                    <option value="1937">1937</option>
-                    <option value="1938">1938</option>
-                    <option value="1939">1939</option>
-                    <option value="1940">1940</option>
-                </select>
-                <!--style="width:70px;"-->
-        
-                <select data-placeholder="Make" class="chzn-select" tabindex="2" id="make">
-                    <option value=""></option>
-                    <option value="CADILLAC">CADILLAC</option>
-                    <option value="CHRYSLER">CHRYSLER</option>
-                    <option value="FORD">FORD</option>
-                    <option value="MERCEDES-BENZ">MERCEDES-BENZ</option>
-                    <option value="ROLLS-ROYCE">ROLLS-ROYCE</option>
-                </select>
-                <!--style="width:115px;"-->
-        
-                <select data-placeholder="Model" class="chzn-select" tabindex="3" id="model">
-                    <option value=""></option>
-                    <option value="">...</option>
-                    <option value="">...</option>
-                    <option value="">...</option>
-                    <option value="">...</option>
-                    <option value="">...</option>
-                    <option value="">...</option>
-                </select>
-                <!--style="width:115px;"-->
-        
-                <a href="#" class="button">Search</a>
-        
+            <div class="container home-container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="logo text-center">
+                                <!-- LOGO -->
+                            <img width="125" height="105" src="images/v.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 col-sm-8">
+                        <div class="home_text">
+                            <!-- TITLE AND DESC -->
+                            <h1><strong>Enjoy the Ride</strong></h1>
+                            <p>Buyers & Sellers of Exceptional Vintage Cars</p>
+
+                            <div class="download-btn">
+                            <!-- BUTTON -->
+                                <a class="btn home-btn wow fadeInLeft" href="#CONTACT">INVENTORY</a>
+                                <a class="gtbootcampstudents btn wow fadeInRight" href="#TESTIMONIAL">ENGINEERING & DESIGNING MEMBERS<i class="fa fa-angle-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-    
-    </header>
-
-    <!-- CREATE A HAMBURGER FOR THE CONTRIBUTERS' BIO Contributers: Derek Ambrose | Sharmeen Panjwani | Nelson Quinones -->
-
-
-    <section id="showcase">
-        <div class="container">
-            <h1>Vintage Cars</h1>
-            <p>Find Amazing Vintage Cars Anywhere in the United States</p>
         </div>
     </section>
 
-    <br>
-    <br>
-    <br>
-    <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=Nelson's content-=-=-=-=--=-=-=-=-=-=-= -->
+    <!-- END HEADER SECTION -->
 
+<!-- =========================
+     START SEARCH FORM AREA
+============================== -->
+
+<section class="vintage_search page" id="VINTAGE">
+    <div class="section_overlay">
+        <div class="container">
+            <div class="col-md-10 col-md-offset-1 wow bounceIn">
+                <!-- Start Search Section Title-->
+                <div class="section_title">
+                    <h2>Search Nationwide</h2>
+                </div>
+            </div>
+        </div>
+        <div class="vintage_search_form wow bounceIn">
+            <div class="container">
+
+            <!-- SEARCH FORM starts here -->    
+                <form role="form" action="">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <input type="year" class="form-control" id="year" placeholder="Year">
+                        <br>  
+                            <input type="make" class="form-control" id="make" placeholder="Make">
+                        <br>
+                            <input type="model" class="form-control" id="model" placeholder="Model">
+                        <br>
+                            <button type="button" class="btn btn-default submit-btn form_submit">SEARCH</button>
+                        </div>
+                        <br>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+    <!-- END SEARCH FORM -->
+
+<!-- =========================
+============================== -->
+
+<section class="fun_facts parallax">
+    <div class="section_overlay"></div></section>
+
+
+<!-- =========================
+     START ABOUT US SECTION
+============================== -->
+
+
+<section class="about page" id="ABOUT">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <!-- ABOUT US SECTION TITLE-->
+                    <div class="section_title">
+                        <h2>Georgia Tech Coding Bootcamp</h2>
+                        <p>We are in a 24-week intensive learning HTML5, CSS3, JavaScript, jQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, Handlebars JS, & React Js, and more!</p>
+                    </div>
+                </div>
     
-    <div class="container">
-        <br>
-            <img id="classiker-photo" src="https://cdn.pixabay.com/photo/2017/04/20/18/02/classiker-2246475_960_720.png" alt="classiker">
-                <a id="history"></a><span class="link-titles"><strong>History 1919-1930</strong></span>
-                    <p class="paragraphs">The vintage era in the automotive world was a time of transition. The car started off in 1919 as still something of a rarity, and ended up, 
-                    in 1930, well on the way towards ubiquity. <em>In fact, automobile production at the end of this period was not matched again until the 1950s.</em> 
-                    In the intervening years, most industrialized countries built nationwide road systems with the result that, towards the end of the period, 
-                    the ability to negotiate unpaved roads was no longer a prime consideration of automotive design today's terms, a vintage car is defined 
-                    the same as a classic.
-                    <!--<section id="boxes"><div class="container"><div class="box"><h3>HISTORY</h3></div>assets/images/rolls-royce.jpg-->  
-                    </p>
-    </div>
-        <br>
-        <div class="container">
-            <br>
-                <img id="mercedesBenz" src="https://cdn.pixabay.com/photo/2017/08/05/15/15/mercedes-benz-2584369_960_720.png" alt="Mercedes-Benz">
-                    <a id="rarity"></a><span class="link-titles"><strong>Rarity</strong></span>
-                        <p class="paragraphs">Cars that were made in small numbers or often have a higher value but can be more difficult to maintain. Certain year and model cars became popular 
-                        to turn into hot rods thus destroying their original condition. Other models were produced in such quantities that the price is still not inflated. 
-                        Market trend is an important part in the price of a vintage car. An "almost" original and in perfect shape model A that was abundantly produced can be 
-                        purchased for $20,000.00. A collector as an investor would have to know the potential market and have a belief that the future market will bring a return 
-                        on an investment.
-                        <!--<div class="box"><img src="assets/images/ford.jpg"><h3>VINTAGE PIC2</h3></div>-->
-                        </p>
+            </div>
         </div>
-    <br>
-        <div class="container">
-        <br>
-            <img id="autoUnion" src="https://cdn.pixabay.com/photo/2017/09/27/23/58/auto-union-2793941_960_720.png" alt="Auto-Union">
-                <a id="valuation"></a><span class="link-titles"><strong>Valuation</strong></span>
-                    <p class="paragraphs">Determining the value of a vintage car can be difficult, as there are many different factors that can potentially influence the price. The age, condition, 
-                    rarity, modifications, vehicle history and mileage can all drastically change a car's value, among other factors. In recent years, services have begun providing 
-                    classic and vintage car valuation data to the public, by establishing baseline prices for vehicles in various conditions and publishing marketing trends and 
-                    forecasts collectors can use to monitor the state of the market. As a result of the variability in car values, most insurers offer agreed value insurance coverage 
-                    for classic cars. Agreed value coverage involves both the owner and insurance company agreeing on the car's value and insuring it for the agreed amount, as opposed 
-                    to insuring the car based on industry standard or an average published value.
-                    <!-- <img id="" src="assets/images/benz.jpg"> -->
-                    </p>
-    </div>
-        <br>
-        <div class="container">  
-            <br>
-                <img id="rollsRoyce" src="https://cdn.pixabay.com/photo/2017/08/19/15/52/bmw-2658975_960_720.png" alt="Rolls Royce">
-                    <a id="safety"></a><span class="link-titles"><strong>Safety Issues</strong></span>
-                        <p class="paragraphs" >Antique automobiles and early to middle era classic cars do not have the safety features that are standard on modern cars. The most rudimentary of safety features, 
-                        front wheel brakes and hydraulic brakes, began appearing on cars in the 1920s and 1930s respectively.
-                        </p>
-        </div>
-        <br>
-        <div class="container">
-        <br>
-        <img id="bmwOldtimer" src="https://cdn.pixabay.com/photo/2017/09/10/13/26/rolls-royce-2735568_960_720.png" alt="BMW Oldtimer">
-        <a id="collecting"></a><span class="link-titles"><strong>Collecting</strong></span>
-        <p class="paragraphs" >For the average person car collecting is a hobby. A person can have a fascination with a certain vehicle, make or a history with one so seeks a particular make or model. 
-        Finding such a car at an affordable price is not always hard but the price will depend on the condition or the desired end result. Usually the less work required on a 
-        vehicle equates to a higher price, the more work required means a cheaper initial cost, but often more in the long run, and a person's level of restoration experience plays an 
-        important part.
-        </p>
-        <br>
-        <!--<a id="facts"></a><span class="moreLinks"><strong>Facts</strong></span>
-                <br>
-                    <ul>
-                        <li class="extraLinks"><a href="http://www.gm.ca/gm/english/corporate/about/ourhistory/detail" target="_blank">History of the Automobile</a></li>
-                        <li class="extraLinks"><a href="https://www.thoughtco.com/automobile-history-1991458" target="_blank">The inventions and inventors that led to the modern day car</a></li>
-                        <li class="extraLinks"><a href="https://en.wikipedia.org/wiki/Timeline_of_North_American_automobiles#1919" target="_blank">Timeline of North American automobiles</a></li>
-                    </ul>
-                <br> -->
-            <br>
 
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- END ABOUT US -->
 
+<!-- =========================
+     START REQUIREMENTS SECTION
+============================== -->
+<div class="github">
+        <div class="container">
+            <div class="row wow fadeInLeftBig" data-wow-duration="1s">
+                <div class="col-md-9">
+                    <p>Git Version Control: This is where we all contributed and easily merged our work through Github. Creating several branches made pair programming easier.</p>
+                        <br>
+                        <p>Requirements:</p>
+
+                        <p>Must use at least two APIs |
+                        
+                        Must use AJAX to pull data |
+                        
+                        Must utilize at least one new library or technology that we haven’t discussed |
+                        
+                        Must have a polished frontend / UI |
+                        
+                        Must meet good quality coding standards (indentation, scoping, naming) |
+                        
+                        Must NOT use alerts, confirms, or prompts (look into modals!) |
+                        
+                        Must have some sort of repeating element (table, columns, etc) |
+                        
+                        Must use Bootstrap or Alternative CSS Framework |
+                        
+                        Must be Deployed (Github Pages) |
+                        
+                        Must have User Input Validation</p>
+                </div>
+                <div class="col-md-3">
+                    <a class="btn btn-primary btn-action" href="https://github.com/kuchsweet786/VintageCar" role="button">Git Version Control</a>
+                </div>
+            </div>
         </div>
+    </div>
+
+    <!-- END REQUIREMENTS -->
+
+<!-- =========================
+ START TESTIMONIAL SECTION
+============================== -->
+
+<section id="TESTIMONIAL" class="testimonial parallax">
+    <div class="section_overlay">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 wow bounceInDown">
+                    <div id="carousel-example-caption-testimonial" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-caption-testimonial" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-caption-testimonial" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-caption-testimonial" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-12 text-center">
+                                            <!-- IMAGE -->
+                                            <img src="images/client_1.png" alt="">
+                                            <div class="testimonial_caption">
+                                               <!-- DESCRIPTION -->  
+                                                <h2>Derek Ambrose</h2>
+                                                <h4><span>Front-End Developer,</span> New Orleans, LA</h4>
+                                                <br>
+                                                <ul>10 years of logistical management experience</ul>
+                                                <ul>Training specialist</ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-12 text-center">
+                                             <!-- IMAGE -->
+                                            <img src="images/client_2.png" alt="">
+                                            <div class="testimonial_caption">
+                                            <!-- DESCRIPTION --> 
+                                                <h2>Sharmeen Panjwani</h2>
+                                                <h4><span>API Coordinator,</span> India</h4>
+                                                <ul>10 years of logistical management experience</ul>
+                                                <ul>Training specialist</ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-12 text-center">
+                                            <!-- IMAGE -->
+                                            <img src="images/client_3.png" alt="">
+                                            <div class="testimonial_caption">
+                                            <!-- DESCRIPTION --> 
+                                                <h2>Nelson Quinones</h2>
+                                                <h4><span>Content Contributor, Developer,</span> Puerto Rico</h4>
+                                                <ul>10 years of logistical management experience</ul>
+                                                <ul>Training specialist</ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =========================
+     START DOWNLOAD NOW 
+============================== -->
+    <section class="download page" id="DOWNLOAD">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <!-- DOWNLOAD NOW SECTION TITLE -->
+                    <div class="section_title">
+                        <h2>A VINTAGE CAR HISTORY</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+                    </div>
+                    <!--END DOWNLOAD NOW SECTION TITLE -->
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="download_screen text-center wow fadeInUp" data-wow-duration="1s">
+                        <img src="images/hudson.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+<br>
+<br>
+<br>
+        
+    <!-- END DOWNLOAD -->
+
+<!-- =========================
+     FOOTER 
+============================== -->
+
+    <section class="copyright">
+        <h2>Vintage Cars</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="copy_right_text">
+                    <!-- COPYRIGHT TEXT -->
+                        <p>Copyright &copy; 2018.</p>   
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="scroll_top">
+                        <a href="#HOME"><i class="fa fa-angle-up"></i></a>
+                    </div>
+                </div>
     </section>
 
-    <footer id="footer" >
-        <p>&copy; Vintage Cars | A Pair Programming Project for Web Design Practice</p>
-    </footer>
+    <!-- END FOOTER -->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
-        crossorigin="anonymous"></script> -->
-    <script type="text/javascript" src="assets/javascript/app.js"></script>
-
-
+<!-- =========================
+     SCRIPTS 
+============================== -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/jquery.parallax-1.1.3.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.ajaxchimp.langs.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
-
 </html>
+
+
+
+
+
+
+
+
+
+
+
+

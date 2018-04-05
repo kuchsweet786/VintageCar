@@ -1,0 +1,90 @@
+
+/* This Css is for a small mobile */
+
+@media (max-width: 767px) {
+    .single_store {
+        border-left: 0px;
+    }
+    .last {
+        border-right: 0px;
+    }
+    .video {
+        padding-top: 50px;
+    }
+    .video-button {
+        text-align: center;
+    }
+    .github .col-md-3 {
+        text-align: center;
+        padding-top: 50px;
+    }
+    .single_fun_facts {
+        padding-bottom: 60px;
+    }
+}
+/* This Css is for a tablet */
+
+@media (min-width: 760px) {
+    .single_store {
+        border-left: 0px;
+    }
+    .last {
+        border-right: 0px;
+    }
+    .github .col-md-3 {
+        text-align: center;
+        padding-top: 50px;
+    }
+    .video-button {
+        text-align: center;
+    }
+    .single_fun_facts {
+        padding-bottom: 60px;
+    }
+    .video {
+        padding-top: 50px;
+    }
+}
+/* This Css is for a Medium Device */
+
+@media (min-width: 992px) {
+    .last {
+        border-right: 1px solid #0F1217;
+    }
+    .single_store {
+        border-left: 1px solid #0F1217;
+    }
+    .video-button {
+        text-align: left;
+    }
+    .github .col-md-3 {
+        text-align: right;
+        padding-top: 0px;
+    }
+    .single_fun_facts {
+        padding-bottom: 0px;
+    }
+    .video {
+        padding-top: 00px;
+    }
+}
+/* This Css is for a large Device */
+
+@media (min-width: 1200px) {
+    .last {
+        border-right: 1px solid #0F1217;
+    }
+    .single_store {
+        border-left: 1px solid #0F1217;
+    }
+    .video-button {
+        text-align: left;
+    }
+    .github .col-md-3 {
+        text-align: right;
+        padding-top: 0px;
+    }
+    .video {
+        padding-top: 0px;
+    }
+}
