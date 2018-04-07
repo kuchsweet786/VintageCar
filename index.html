@@ -1,10 +1,197 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Cars - Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
+
 <body>
 
+
+
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight"></span> Cars</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="#facts">Facts</a></li>
+                    <li><a href="#collecting">Collecting</a></li>
+                    <li><a href="#safety">Safety</a></li>
+                    <li><a href="#valuation">Valuation</a></li>
+                    <li><a href="#rarity">Rarity</a></li>
+                    <li><a href="#link-history">History</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <section id="form">
+            <div class="search-bar"></div>
+                <input id="zipcode" placeholder="Zip Code" style="color: black;">
+                <!--<select data-placeholder="&nbsp;Year" class="chzn-select-year" tabindex="1" id="year">-->
+                    <!--<option value=""></option>-->
+                    <!--<option value="1930">1930</option>-->
+                    <!--<option value="1931">1931</option>-->
+                    <!--<option value="1932">1932</option>-->
+                    <!--<option value="1933">1933</option>-->
+                    <!--<option value="1934">1934</option>-->
+                    <!--<option value="1935">1935</option>-->
+                    <!--<option value="1936">1936</option>-->
+                    <!--<option value="1937">1937</option>-->
+                    <!--<option value="1938">1938</option>-->
+                    <!--<option value="1939">1939</option>-->
+                    <!--<option value="1940">1940</option>-->
+                <!--</select>-->
+                <!--style="width:70px;"-->
+        
+                <select data-placeholder="Make" class="chzn-select" tabindex="2" id="make">
+                    <option value=""></option>
+                    <option value="CADILLAC">CADILLAC</option>
+                    <option value="Honda">HONDA</option>
+                    <option value="Lexus">LEXUS</option>
+                    <option value="CHRYSLER">CHRYSLER</option>
+                    <option value="FORD">FORD</option>
+                    <option value="MERCEDES-BENZ">MERCEDES-BENZ</option>
+                    <option value="ROLLS-ROYCE">ROLLS-ROYCE</option>
+                </select>
+                <!--style="width:115px;"-->
+        
+                <!--<select data-placeholder="Model" class="chzn-select" tabindex="3" id="model">-->
+                    <!--<option value=""></option>-->
+                    <!--<option value="">...</option>-->
+                    <!--<option value="">...</option>-->
+                    <!--<option value="">...</option>-->
+                    <!--<option value="">...</option>-->
+                    <!--<option value="">...</option>-->
+                    <!--<option value="">...</option>-->
+                <!--</select>-->
+                <!--style="width:115px;"-->
+        
+                <button class="button">Search</button>
+        
+            </div>
+    
+    </header>
+
+    <!-- CREATE A HAMBURGER FOR THE CONTRIBUTERS' BIO Contributers: Derek Ambrose | Sharmeen Panjwani | Nelson Quinones -->
+
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Cars</h1>
+            <p>Find Amazing Cars Anywhere in the United States</p>
+        </div>
+    </section>
+
+    <div id="carList">  </div>
+
+    <br>
+    <br>
+    <br>
+    <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=Nelson's content-=-=-=-=--=-=-=-=-=-=-= -->
+
+    
+    <div class="container">
+        <br>
+            <img id="classiker-photo" src="https://cdn.pixabay.com/photo/2017/04/20/18/02/classiker-2246475_960_720.png" alt="classiker">
+                <a id="history"></a><span class="link-titles"><strong>History 1919-1930</strong></span>
+                    <p class="paragraphs">The vintage era in the automotive world was a time of transition. The car started off in 1919 as still something of a rarity, and ended up, 
+                    in 1930, well on the way towards ubiquity. <em>In fact, automobile production at the end of this period was not matched again until the 1950s.</em> 
+                    In the intervening years, most industrialized countries built nationwide road systems with the result that, towards the end of the period, 
+                    the ability to negotiate unpaved roads was no longer a prime consideration of automotive design today's terms, a vintage car is defined 
+                    the same as a classic.
+                    <!--<section id="boxes"><div class="container"><div class="box"><h3>HISTORY</h3></div>assets/images/rolls-royce.jpg-->  
+                    </p>
+    </div>
+        <br>
+        <div class="container">
+            <br>
+                <img id="mercedesBenz" src="https://cdn.pixabay.com/photo/2017/08/05/15/15/mercedes-benz-2584369_960_720.png" alt="Mercedes-Benz">
+                    <a id="rarity"></a><span class="link-titles"><strong>Rarity</strong></span>
+                        <p class="paragraphs">Cars that were made in small numbers or often have a higher value but can be more difficult to maintain. Certain year and model cars became popular 
+                        to turn into hot rods thus destroying their original condition. Other models were produced in such quantities that the price is still not inflated. 
+                        Market trend is an important part in the price of a vintage car. An "almost" original and in perfect shape model A that was abundantly produced can be 
+                        purchased for $20,000.00. A collector as an investor would have to know the potential market and have a belief that the future market will bring a return 
+                        on an investment.
+                        <!--<div class="box"><img src="assets/images/ford.jpg"><h3>VINTAGE PIC2</h3></div>-->
+                        </p>
+        </div>
+    <br>
+        <div class="container">
+        <br>
+            <img id="autoUnion" src="https://cdn.pixabay.com/photo/2017/09/27/23/58/auto-union-2793941_960_720.png" alt="Auto-Union">
+                <a id="valuation"></a><span class="link-titles"><strong>Valuation</strong></span>
+                    <p class="paragraphs">Determining the value of a vintage car can be difficult, as there are many different factors that can potentially influence the price. The age, condition, 
+                    rarity, modifications, vehicle history and mileage can all drastically change a car's value, among other factors. In recent years, services have begun providing 
+                    classic and vintage car valuation data to the public, by establishing baseline prices for vehicles in various conditions and publishing marketing trends and 
+                    forecasts collectors can use to monitor the state of the market. As a result of the variability in car values, most insurers offer agreed value insurance coverage 
+                    for classic cars. Agreed value coverage involves both the owner and insurance company agreeing on the car's value and insuring it for the agreed amount, as opposed 
+                    to insuring the car based on industry standard or an average published value.
+                    <!-- <img id="" src="assets/images/benz.jpg"> -->
+                    </p>
+    </div>
+        <br>
+        <div class="container">  
+            <br>
+                <img id="rollsRoyce" src="https://cdn.pixabay.com/photo/2017/08/19/15/52/bmw-2658975_960_720.png" alt="Rolls Royce">
+                    <a id="safety"></a><span class="link-titles"><strong>Safety Issues</strong></span>
+                        <p class="paragraphs" >Antique automobiles and early to middle era classic cars do not have the safety features that are standard on modern cars. The most rudimentary of safety features, 
+                        front wheel brakes and hydraulic brakes, began appearing on cars in the 1920s and 1930s respectively.
+                        </p>
+        </div>
+        <br>
+        <div class="container">
+        <br>
+        <img id="bmwOldtimer" src="https://cdn.pixabay.com/photo/2017/09/10/13/26/rolls-royce-2735568_960_720.png" alt="BMW Oldtimer">
+        <a id="collecting"></a><span class="link-titles"><strong>Collecting</strong></span>
+        <p class="paragraphs" >For the average person car collecting is a hobby. A person can have a fascination with a certain vehicle, make or a history with one so seeks a particular make or model. 
+        Finding such a car at an affordable price is not always hard but the price will depend on the condition or the desired end result. Usually the less work required on a 
+        vehicle equates to a higher price, the more work required means a cheaper initial cost, but often more in the long run, and a person's level of restoration experience plays an 
+        important part.
+        </p>
+        <br>
+        <!--<a id="facts"></a><span class="moreLinks"><strong>Facts</strong></span>
+                <br>
+                    <ul>
+                        <li class="extraLinks"><a href="http://www.gm.ca/gm/english/corporate/about/ourhistory/detail" target="_blank">History of the Automobile</a></li>
+                        <li class="extraLinks"><a href="https://www.thoughtco.com/automobile-history-1991458" target="_blank">The inventions and inventors that led to the modern day car</a></li>
+                        <li class="extraLinks"><a href="https://en.wikipedia.org/wiki/Timeline_of_North_American_automobiles#1919" target="_blank">Timeline of North American automobiles</a></li>
+                    </ul>
+                <br> -->
+            <br>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        </div>
+    </section>
+
+    <footer id="footer" >
+        <p>&copy; Vintage Cars | A Pair Programming Project for Web Design Practice</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+        crossorigin="anonymous"></script> -->
+    <script type="text/javascript" src="./test.js"></script>
+
+
+
+
+
+
 </body>
+
 </html>
