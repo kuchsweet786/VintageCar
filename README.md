@@ -1,5 +1,7 @@
 # Car
 
+team members are: Sharmeen, Nalson, Derek
+
 -our app is a place where the user can search for a car but selection a maker. 
 -to narrow it down, the user can search for a car in specific area byt entering zip code.
 -one the user enters both info and click search, the web will give a list of cars, 
